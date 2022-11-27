@@ -16,7 +16,7 @@ function netSalary() {
 	    let nhif = salary * 0.025;
 	    let finSalary = salary - (tax + nssf + nhif);
     
-	    document.getElementById("net").innerHTML = `Your net salary is ${finSalary}`
+	    document.getElementById("net").innerHTML = `Net salary is: ${finSalary}`
 	}
     
 	 // calculating the net salary above 24,000 and below 32333 using  NHIF rate of 2.5% and NSSF rate of 6%. 
@@ -27,7 +27,7 @@ function netSalary() {
 	    let nhif = salary * 0.025;
 	    let finSalary = salary - (tax + nssf + nhif);
     
-	    document.getElementById("net").innerHTML = `Your net salary is ${finSalary}`
+	    document.getElementById("net").innerHTML = `Net salary is: ${finSalary}`
 	}
     
 	 // calculating the net salary above 32333 using  NHIF rate of 2.5% and NSSF rate of 6%.
@@ -38,7 +38,7 @@ function netSalary() {
 	    let nhif = salary * 0.025;
 	    let finSalary = salary - (tax + nssf + nhif);
     
-	    document.getElementById("net").innerHTML = `Your net salary is ${finSalary}`
+	    document.getElementById("net").innerHTML = `Net salary is: ${finSalary}`
 	}
     
 	else {
