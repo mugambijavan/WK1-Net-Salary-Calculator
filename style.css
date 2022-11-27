@@ -8,6 +8,8 @@ body {
 
 h4 {
     color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 .btn{
      background : rgb(77, 195, 195);
