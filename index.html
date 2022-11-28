@@ -5,25 +5,22 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Net Salary Calculator</title>
-    <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
-    <div class="container">
-        <h1>Net Salary Calculator</h1>
-
-        <!-- input salary form   -->
-
-        <input type="number" placeholder="Input Gross Salary" id="salary">
-
-	<!--submit button-->
-        <button type="submit" onclick="netSalary()" id="btn" class="btn btn-primary">Calculate</button>
-	<!--output-->
-        <h4>Net Salary:</h4>
-        <p id="net"></p>
+    <!--input form-->
+    <div id="Basic Salary">
+        <h1> Net Salary Calculator</h1>
+        <input id="Basic" type="number" placeholder="Basic Salary" min="0" oninput="handleSalary(event)">
     </div>
-    
-<!--js file-->
-    <script src="index.js"></script>
+
+    <!--output-->
+    <div>NHIF :<span id="nhif"></span></div>
+    <div>NSSF :<span id="nssf"></span></div>
+    <div>PAYEE : <span id="payee"></span></div>
+    <div>Taxable Income : <span id="taxableincome"></span></div>
+    <div>Net Salary : <span id="netpay"></span></div>
+
+    <!--js file link-->
+    <script src="./index.js"></script>
 </body>
 </html>
